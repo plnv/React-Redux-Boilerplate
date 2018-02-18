@@ -1,5 +1,28 @@
-$primary: #006699;
+body, html, #root {
+  height: 100%;
+}
 
-h2 {
-	color: $primary;
+body {
+  padding: 15px;
+}
+
+.drop-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  .drop-container__well {
+    flex: 1;
+    margin: 0;
+  }
+  .drop-container__dropzone {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

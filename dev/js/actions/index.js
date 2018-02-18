@@ -1,7 +1,13 @@
-export const selectUser = (user) => {
-    console.log("You clicked on user: ", user.first);
-    return {
-        type: 'USER_SELECTED',
-        payload: user
-    }
+export const setJson = (json) => {
+  return {
+    type: 'SET_JSON',
+    payload: json
+  };
+};
+
+export const setError = (error) => {
+  return {
+    type: 'SET_ERROR',
+    payload: error
+  };
 };

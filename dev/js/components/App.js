@@ -4,7 +4,7 @@ import DragAndDrop from '../containers/drag-and-drop';
 require('../../scss/style.scss');
 
 const App = () => (
-    <DragAndDrop/>
+  <DragAndDrop/>
 );
 
 export default App;
